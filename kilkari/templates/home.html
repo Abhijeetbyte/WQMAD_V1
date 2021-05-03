@@ -1,35 +1,28 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="container mt-3">
+<div class="container-fluid py-5 my-0 bg-info">
     <h2 class="text-center">Welcome to Kilkari Foundation</h2>
-</div>
+    <div class="content-container">
+        {% load static %} <img src="{% static "images/image3.png" %}" alt="" width="65" height="85">
+    </div>
+    <div class="content-container">
+        <h2>Arsenic water filter</h2>
+        <h4>A portable solution to prevent Arsenic poisioning</h4>
+    </div>
+    <div class="container">
+    {% load static %} <img src="{% static "images/image5.png" %}" alt="" width="150" height="150">
 
-<div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      {% load static %} <img src="{% static "images/image1.jpeg" %}" class="d-block w-50" alt="home" />
-    </div>
-    <div class="carousel-item">
-      {% load static %} <img src="{% static "images/image2.jpeg" %}" class="d-block w-50" alt="home" />
-    </div>
-    <div class="carousel-item">
-      {% load static %} <img src="{% static "images/image3.png" %}" class="d-block w-50" alt="home" />
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+  <p>
+    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
+  </p>
+
+  <p>
+    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
+  </p>
+
+  <p>
+    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
+  </p>
 </div>
 </div>
 {% endblock %}
