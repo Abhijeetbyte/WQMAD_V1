@@ -2,14 +2,43 @@
 {% block title %}Dashboard{% endblock %}
 {% block content %}
 
-<h1>Dashboard</h1>
-<p> Welcome to your Dashboard.</p>
-
-<h1> Firebase Data</h1>
+<h1>Firebase Data Dashboard</h1>
 
 <p>Filter Name is {{filter_type}}</p>
 <p>Filter manufactured by {{manufacturer}}</p>
 <p>Filter ID {{product_ID}}</p>
 <p>Phase is {{product_phase}}</p>
 <p>Made by {{name}}</p>
+
+<div class="container-fluid px-0">
+    <table class="table table-dark table-hover">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 {% endblock %}
