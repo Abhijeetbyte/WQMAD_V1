@@ -1,52 +1,578 @@
-{% extends "base.html" %}
-{% block content %}
-<div class="container-fluid py-5 my-0 bg-info">
-    <h2 class="text-center">Welcome to Kilkari Foundation</h2>
-    <div class="content-container">
-        {% load static %} <img src="{% static "images/image3.png" %}" alt="" width="65" height="85">
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kilkari Bal Bhawan Research and Development Program -Arsenic Water Filter</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="static/images/favicon.png" rel="icon">
+  <link href="static/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="static/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="static/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart - v1.2.0
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo  align-items-center">
+        <img src="static/images/Kilkari Logo2.png" alt="Kilkari Bal Bhawan" width="100" height="125">
+
+        <span style="color: #C95A04" >  Science Section</span>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+			<li><a class="nav-link scrollto" href="#product">product</a></li>
+          <li><a class="nav-link scrollto" href="#specification">Specification</a></li>
+          <li><a class="nav-link scrollto" href="#achievment">Achievment</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+
+          <li><a class="getstarted scrollto" href="#about">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
     </div>
-    <div class="content-container">
-        <h2>Arsenic water filter</h2>
-        <h4>A portable solution to prevent Arsenic poisioning</h4>
-    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero d-flex align-items-center">
+
     <div class="container">
-    {% load static %} <img src="{% static "images/image5.png" %}" alt="" width="150" height="150">
-
-  <p>
-    A paragraph of placeholder text. We're using it here to show the use of the clearfix class. We're adding quite a few meaningless phrases here to demonstrate how the columns interact here with the floated image.
-  </p>
-
-  <p>
-    As you can see the paragraphs gracefully wrap around the floated image. Now imagine how this would look with some actual content in here, rather than just this boring placeholder text that goes on and on, but actually conveys no tangible information at. It simply takes up space and should not really be read.
-  </p>
-
-  <p>
-    And yet, here you are, still persevering in reading this placeholder text, hoping for some more insights, or some hidden easter egg of content. A joke, perhaps. Unfortunately, there's none of that here.
-  </p>
-</div>
-</div>
-<div class="c-wrapper">
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      {% load static %} <img src="{% static "images/image1.jpeg" %}" class="d-block w-50" alt="home" />
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center">
+          <h1 data-aos="fade-up" style="font-size: 2em;">Real – Time Multiparameter Drinking Water Quality Monitoring Platform</h1>
+			<br>
+          <h4 data-aos="fade-up" data-aos-delay="400" style="font-size: 1.25em;"> Under the applied R&D (BBBK-009/2019)  Institutional Funded project of Bihar Bal Bhawan Kilkari (Under the Department of Education Govt.of Bihar)-India. </h4>
+          <div data-aos="fade-up" data-aos-delay="600">
+            <div class="text-center text-lg-start">
+              <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
+                <span>Login/Register</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+          <img src="static/images/water.png" class="img-fluid" alt="">
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      {% load static %} <img src="{% static "images/image2.jpeg" %}" class="d-block w-50" alt="home" />
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+
+      <div class="container" data-aos="fade-up">
+        <div class="row gx-0">
+
+          <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="content">
+              <h3>Who We Are</h3>
+              <h2>We are a team of young entreprenuer at Kikari</h2>
+              <p>
+                We aims at helping society by rending our creativity and skill.We have developed a low cost Arsenic filter which can clean contaminated ground water and avoid the health issue caused
+				  by arsenic posioning in human body.
+              </p>
+              <div class="text-center text-lg-start">
+                <a href="#" class="btn-read-more d-inline-flex align-items-center justify-content-center align-self-center">
+                  <span>Read More</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="static/images/about.jpg" class="img-fluid" alt="">
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- End About Section -->
+
+
+	<!-- ======= Arsenic Poisioning ======= -->
+	  <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Problem</h2>
+          <p>Arsenic Poisoning due to contaminated groundwater </p>
+        </header>
+		  <div class="row align-content-center">
+
+          <div class="col-lg-8 "  data-aos="fade-up">
+
+
+                    <p>The contamination in drinking water or ground water (includes, As, Fe, Pathogens, Nitrate, Lead) is a serious health concern. Being causes many health problems such as: -</p>
+
+					  <p>
+						  <ul>
+  							<li>Vascular diseases </li>
+  							<li>Cancers and Acute lesions,</li>
+ 							<li>Keratosis and Diarrhea </li>
+							<li>And most of the water borne diseases</li>
+			  				</ul>
+			  		</p>
+			  <p>Water contamination levels should be distinctly managed in groundwater wells; therefore, quality monitoring is a primary target in utilities and environmental management.</p>
+			  <p>
+Detecting heavy metals and trace elements with the consumption of chemical and accessories in water is difficult. Sites driven to, analytical laboratories introduce delays, and field kits are difficult to use or lack data integrity.
+</p>
+
+
+          </div>
+
+			  <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="{% static "images/arsenic poisoning.png" %}" class="img-fluid" alt="">
+            </div>
+		  </div></div></section>
+
+
+<!-- ======= End Arsenic Poisioning ======= -->
+    <!-- ======= Values Section ======= -->
+    <section id="product" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Our Product and Solution</h2>
+          <p>Arsenic Water Filter</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/Filter.png" class="img-fluid" alt="">
+              {% load static %} <img src="{% static "images/Filter.png" %}" class="img-fluid" alt="">
+              <h3>Conceptual Design</h3>
+              <p>Virtual CAD concept development and analysis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              {% load static %} <img src="{% static "images/desktop prototype.png" %}" class="img-fluid" alt="">
+              <h3>Table Top Prototype</h3>
+              <p>Rapid Prototype developement and testing for more then 10,000 hr.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="assets/img/village filter.png" class="img-fluid" alt="">
+              {% load static %} <img src="{% static "images/village filter.png" %}" class="img-fluid" alt="">
+              <h3>Commercial Prototype Development.</h3>
+              <p>Commercial prototype and field testing in various district of Bihar.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="specification" class="features">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Features</h2>
+          <p>Advance & compact system for ground and surface water contaminants monitors simultaneous quantitative  assessment of: - </p>
+        </header>
+
+        <!-- Feature Icons -->
+        <div class=" feature-icons" data-aos="fade-up">
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
+              <img src="assets/img/Arsenic filter set.jpg" class="img-fluid p-4" alt="">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+              <div class="row align-self-center gy-4">
+
+                <div class="col-md-6 icon-box" data-aos="fade-up">
+                  <i class="ri-line-chart-line"></i>
+                  <div>
+                    <h4>Heavy metal and Trace elements</h4>
+                    <p>Applying novel methods includes Magnetostatic & Quantum Magnetic Behavioral of Molecules, to asses the level of concentration in ppb at running water.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="ri-stack-line"></i>
+                  <div>
+                    <h4>Physical parameters,</h4>
+                    <p>Implemented the Commercials Digital Sensors and circuitry to quantify the relevant factors of pH, ORP, TDS, Ec.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="ri-brush-4-line"></i>
+                  <div>
+                    <h4>Bacteriological</h4>
+                    <p>Embedded System, based sensor to provide the MPN/ml value of Pathogens presence.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="ri-magic-line"></i>
+                  <div>
+                    <h4>Robust and fast, </h4>
+                    <p>No need of additional infrastructure / setup and justify the parameter distinicly in running water source / centralized data transaction with cloud and IoT integration.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="ri-command-line"></i>
+                  <div>
+                    <h4>Easy to use in various process waters.</h4>
+                    <p>Application ion in various field of water mentoring sector by fulfilling the demands with novelty and industrial applicability.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                  <i class="ri-radar-line"></i>
+                  <div>
+                    <h4>Decrease operational cost, </h4>
+                    <p>Remove rework from traveling to the site more than required, Provide needed information to authorities/ engineering/ academicians without the hassle of expensive custom installation. Additionally, on time printing methods.</p>
+                  </div>
+                </div>
+				  <div class="container" data-aos="fade-up">
+					  <p>Applying novel methods includes Magnetostatic & Quantum Magnetic Behavioral of Molecules, with Embedded Commercials Digital Sensors and circuitry, Integrated Data Transaction and iot functions with cloud storage along thermal printing accessories.</p>
+
+					  <p>
+						   Soon, the trials of the device will be starred to test the real capacity of the same and evaluate the accuracy with commercial aspects also to demonstrate.  Besides it in the Indian IP process to protect the novel methods.
+					  </p>
+				   </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Team</h2>
+          <p>Our hard working team</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="member-img">
+                {% load static %} <img src="{% static "images/Manju.jpg" %}" class="img-fluid" alt="">
+
+
+              </div>
+              <div class="member-info">
+                <h4>Institutional Mentor, Bihar Bal Bhawan Kilkari</h4>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="member-img">
+                {% load static %} <img src="{% static "images/Abhijeet Sign.jpg" %}" class="img-fluid" alt="">
+
+              </div>
+              <div class="member-info">
+                <h4>Researcher | Project Head – Real- Time Water Drinking Quality Monitoring</h4>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="member-img">
+                {% load static %} <img src="{% static "images/Arpit Sign.jpg" %}" class="img-fluid" alt="">
+
+              </div>
+              <div class="member-info">
+                <h4>Researcher| Project Head – Magnetic Arsenic Removal Unit</h4>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <div class="member-img">
+                <img src="assets/img/Akshat  Sign.jpg" class="img-fluid" alt="">
+                {% load static %} <img src="{% static "images/Akshat  Sign.jpg" %}" class="img-fluid" alt="">
+
+              </div>
+              <div class="member-info">
+                <h4>Co- Researcher</h4>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Team Section -->
+
+
+	<!--========= Acheivement section =========== --->
+	<section id="achievment" class="team">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <p>Achievement</p>
+        </header>
+
+        <div class="row ">
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="member-img">
+                {% load static %} <img src="{% static "images/certificate 1.jpeg" %}" class="img-fluid" alt="">
+
+            </div>
+          </div>
+
+
+          <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+
+              <div class="member-img">
+                {% load static %} <img src="{% static "images/certificate 2.jpeg" %}" class="img-fluid" alt="">
+
+              </div>
+
+          </div>
+
+		</div>
+		</div>
+	</section>
+
+
+	<!-- End Acheivement section here---->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Kilkari' Bihar Bal Bhawan, Saidpur, Rajendra Nagar<br> Patna 800004  (Bihar) India</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>91-0612-2661211<br>+91-9835224919</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>kilkari2008@yahoo.in<br>info@kilkaribihar.in</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Tuesday - Sunday<br>9:00AM - 05:00PM</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img src="assets/img/logo.png" alt="">
+              <span>Kilkari, Patna</span>
+            </a>
+            <p>Estd. by Department of Education and Gorvernment of Bihar.</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+
+
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Kilkari' Bihar Bal Bhawan <br>
+              Saidpur, Rajendra Nagar<br>
+              Patna 800 004  (Bihar) India <br><br>
+              <strong>Phone:</strong> 91-0612-2661211<br>
+              <strong>Email:</strong> kilkari2008@yahoo.in<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
     </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
-{% endblock %}
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Kilkari</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+
+        Designed by <a href="https://redtron.org/">Redtron Education Service LLP</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="static/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="static/vendor/aos/aos.js"></script>
+  <script src="static/vendor/php-email-form/validate.js"></script>
+  <script src="static/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/vendor/purecounter/purecounter.js"></script>
+  <script src="static/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/js/main.js"></script>
+
+</body>
+
+</html>
